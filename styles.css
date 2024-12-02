@@ -1,0 +1,280 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    background: rgb(25,26,29);
+}
+
+/* BROWSER SECTION */
+
+.browser-wrapper {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.browser-wrapper > .left-wrapper {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.browser-wrapper > .left-wrapper > .logo > .logo-link > img {
+    height: 35px;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+
+}
+
+.browser-wrapper > .left-wrapper > .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2px;
+    justify-content: left;
+    align-items: center;
+    width: 350px;
+}
+
+.browser-wrapper > .left-wrapper > .links-wrapper > .Explore-label {
+    font-size: 1.2em;
+    color: rgb(250, 220, 73);
+    font-weight: 400;
+}
+
+.browser-wrapper > .left-wrapper > .links-wrapper > .nav-links {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browser-wrapper > .left-wrapper > .links-wrapper > .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.38em;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.browser-wrapper > .left-wrapper > .spark-wrapper {
+    color: #ACACAC;
+    width: 85px;
+    height: 36px;
+    font-size: 1.38em;
+    font-weight: 600;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.browser-wrapper > .left-wrapper > .spark-wrapper > .spark-scroll i {
+    font-size: 1em;
+    color: #ACACAC;
+    padding-left: 10px;
+}
+
+.browser-wrapper > .right-wrapper {
+    padding-right: 25px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browser-wrapper > .right-wrapper > .gray-buttons {
+    width: 150px;
+    height: 65px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(50, 60, 65);
+    border: none;
+    border-radius: 4px;
+}
+
+
+.browser-wrapper > .right-wrapper > .gray-buttons > .create-arrow {
+    padding-left: 9px;
+    padding-top: 5px;
+    align-self: center;
+    font-size: 1.3em;
+    color: rgb(88, 248, 144);
+}
+
+.browser-wrapper > .right-wrapper > .search-icon {
+    width: 5px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(192, 192, 197);
+    font-size: 2.5em;
+    background-color: transparent;
+    border: none;
+}
+
+/* MID SECTION */
+
+.mid-wrapper {
+    font-family: "quicksand", sans-serif;
+    height: 630px;
+    width: 100%;
+    background: radial-gradient(circle 700px at top left, rgb(96, 96, 96), rgb(54, 56, 63));    
+    color: #cccccc;
+    display: grid;
+    grid-template-columns: 700px auto;
+}
+
+.mid-wrapper > .left-wrapper {
+    width: 700px;
+    padding: 60px 70px;
+    margin-top: -15px;
+}
+
+
+.mid-wrapper > .left-wrapper > .text > .text1 {
+    line-height: 1.15;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.mid-wrapper > .left-wrapper > .text > .text1 > .highlighted-text {
+    font-weight: 703;
+    color: white;
+}
+
+.mid-wrapper > .left-wrapper > .text > .spacer60 {
+    height: 60px;
+    width: 100%;
+ }
+
+.mid-wrapper > .left-wrapper > .text > .text2 {
+    line-height: 1.15;
+    font-size: 2.1em;
+    font-weight: auto;
+    padding: 0px 0px 60px 0px;
+    color: #cac7c7;
+}
+
+.mid-wrapper > .left-wrapper > .buttons-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.mid-wrapper > .left-wrapper > .buttons-wrapper > .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-wrapper > .left-wrapper > .buttons-wrapper > .button > .sign-up-free {
+    background-color: rgb(88, 248, 144);
+    color: black;
+    border: none;
+    border-radius: 6px;
+    width: 350px;
+    height: 70px;
+    font-size: 2.5em;
+}
+
+.mid-wrapper > .left-wrapper > .buttons-wrapper > .button > .learn-more{
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 70px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.mid-wrapper > .right-wrapper {
+    padding-top: 36px;
+    height: 409px;
+}
+
+.mid-wrapper > .right-wrapper > .title-wrapper {
+    padding-left: 145px;
+    margin-top: -10px;
+}
+
+.mid-wrapper > .right-wrapper > .title-wrapper > .title {
+    color: white;
+    font-size: 1.3em;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.mid-wrapper > .right-wrapper > .title-wrapper > .title > .codepen-link{
+    text-decoration: none;
+    color: rgb(64, 201, 247);
+    font-weight: bold;
+}
+
+.mid-wrapper > .right-wrapper > .project-image-wrapper > .project-image-container > .project-image {
+    width: 400px;
+    height: 550px;
+    max-height: 100%;
+    margin-bottom: -4px;
+}
+
+.mid-wrapper > .right-wrapper > .project-image-wrapper > .project-image-container {
+    padding-left: 145px;
+    margin-top: -10px;
+}
+
+.mid-wrapper > .right-wrapper > .project-image-wrapper > .project-image-container > .project-image {
+    margin-left: 8px;
+    width: fit-content;
+    box-shadow: -5px 5px 3px 0px rgba(0,0,0,.2);
+}
+
+/* FOOTER SECTION */
+
+.footer-wrapper {
+    background: rgb(54, 56, 63);
+    color: #ffffff;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.footer-wrapper > .footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(96, 96, 96);
+}
+
+.footer-wrapper > .footer-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.footer-wrapper > .footer-link > a > .bold-span{
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
